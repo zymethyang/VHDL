@@ -1,0 +1,5 @@
+set -tmpdir "D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/xst/projnav.tmp"
+set -xsthdpdir "D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/xst"
+elaborate
+-ifn GIAIMA_CASE_INS.prj
+-ifmt mixed

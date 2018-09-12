@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA2_24H</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/GIAIMA2_24H.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_301_GIAIMA2_24H/GIAIMA2_24H.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA2_24H/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/GIAIMA2_24H.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_301_GIAIMA2_24H/GIAIMA2_24H.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_CONDITIONAL_INS</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/GIAIMA_CONDITIONAL_INS.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_301_GIAIMA2_24H/GIAIMA_CONDITIONAL_INS.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_CONDITIONAL_INS/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/GIAIMA_CONDITIONAL_INS.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_301_GIAIMA2_24H/GIAIMA_CONDITIONAL_INS.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_SELECT_INS</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/GIAIMA_SELECT_INS.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_301_GIAIMA2_24H/GIAIMA_SELECT_INS.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GIAIMA_SELECT_INS/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/GIAIMA_SELECT_INS.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_301_GIAIMA2_24H/GIAIMA_SELECT_INS.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

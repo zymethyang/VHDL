@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_305_GIAIMA_38_ES/GIAIMA_38_SE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_305_GIAIMA_38_ES/GIAIMA_38_SE.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_305_GIAIMA_38_ES/GIAIMA_38_SE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_305_GIAIMA_38_ES/GIAIMA_38_SE.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_305_GIAIMA_38_ES/GIAIMA_38_SE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_305_GIAIMA_38_ES/GIAIMA_38_SE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA_38_SE.ucf -p xc3s500e-pq208-5 GIAIMA_38_SE.ngc GIAIMA_38_SE.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA_38_SE_map.ncd GIAIMA_38_SE.ngd GIAIMA_38_SE.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA_38_SE_map.ncd GIAIMA_38_SE.ncd GIAIMA_38_SE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA_38_SE.twx GIAIMA_38_SE.ncd -o GIAIMA_38_SE.twr GIAIMA_38_SE.pcf -ucf GIAIMA_38_SE.ucf 
+bitgen -intstyle ise -f GIAIMA_38_SE.ut GIAIMA_38_SE.ncd 

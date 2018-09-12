@@ -1,0 +1,5 @@
+set -tmpdir "D:/TT_HDL/BAI312_MAHOAUUTIEN42HE/xst/projnav.tmp"
+set -xsthdpdir "D:/TT_HDL/BAI312_MAHOAUUTIEN42HE/xst"
+elaborate
+-ifn BAI312_MAHOAUUTIEN_42HE.prj
+-ifmt mixed

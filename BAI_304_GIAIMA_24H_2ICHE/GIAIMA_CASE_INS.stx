@@ -1,0 +1,37 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> Parameter xsthdpdir set to D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/GIAIMA_CASE_INS is now defined in a different file.  It was defined in "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_CASE_INS.vhd", and is now defined in "D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/GIAIMA_CASE_INS.vhd".
+WARNING:HDLParsers:3607 - Unit work/GIAIMA_CASE_INS/Behavioral is now defined in a different file.  It was defined in "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_CASE_INS.vhd", and is now defined in "D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/GIAIMA_CASE_INS.vhd".
+Compiling vhdl file "D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/GIAIMA_CASE_INS.vhd" in Library work.
+Entity <giaima_case_ins> compiled.
+ERROR:HDLParsers:839 - "D:/TT_HDL/BAI_304_GIAIMA_24H_2ICHE/GIAIMA_CASE_INS.vhd" Line 43. Selector (result of operator of type std_logic_vector) is an unconstrained array.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.40 secs
+ 
+--> 
+
+Total memory usage is 4505428 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

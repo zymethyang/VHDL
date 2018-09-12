@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "LED_N[7]" LOC = P49;
+NET "LED_N[6]" LOC = P48;
+NET "LED_N[5]" LOC = P40;
+NET "LED_N[4]" LOC = P50;
+NET "LED_N[3]" LOC = P62;
+NET "LED_N[2]" LOC = P98;
+NET "LED_N[1]" LOC = P64;
+NET "LED_N[0]" LOC = P63;
+NET "SW[2]" LOC = P148;
+NET "SW[1]" LOC = P142;
+NET "SW[0]" LOC = P136;
+NET "BELL" LOC = P89;
+NET "E" LOC = P130;
+NET "S" LOC = P124;

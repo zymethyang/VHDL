@@ -1,0 +1,5 @@
+set -tmpdir "D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/xst/projnav.tmp"
+set -xsthdpdir "D:/TAI_LIEU_HOC/HKVI/HDL/BAITAP/BAI_301_GIAIMA2_24H/xst"
+elaborate
+-ifn GIAIMA_CONDITIONAL_INS.prj
+-ifmt mixed

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 06 09:59:34 2018
+# Process ID: 9052
+# Log file: D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/planAhead_run_2/planAhead.log
+# Journal file: D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P124 [get_ports E]
+endgroup
+set_property is_loc_fixed false [get_ports [list  E]]
+set_property is_loc_fixed true [get_ports [list  E]]
+save_constraints

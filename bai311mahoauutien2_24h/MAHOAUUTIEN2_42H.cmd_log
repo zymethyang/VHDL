@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/TT_HDL/bai311mahoauutien2_24h/MAHOAUUTIEN2_42H.xst" -ofn "D:/TT_HDL/bai311mahoauutien2_24h/MAHOAUUTIEN2_42H.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-pq208-5 MAHOAUUTIEN2_42H.ngc MAHOAUUTIEN2_42H.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o MAHOAUUTIEN2_42H_map.ncd MAHOAUUTIEN2_42H.ngd MAHOAUUTIEN2_42H.pcf 
+par -w -intstyle ise -ol high -t 1 MAHOAUUTIEN2_42H_map.ncd MAHOAUUTIEN2_42H.ncd MAHOAUUTIEN2_42H.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAHOAUUTIEN2_42H.twx MAHOAUUTIEN2_42H.ncd -o MAHOAUUTIEN2_42H.twr MAHOAUUTIEN2_42H.pcf 
+bitgen -intstyle ise -f MAHOAUUTIEN2_42H.ut MAHOAUUTIEN2_42H.ncd 

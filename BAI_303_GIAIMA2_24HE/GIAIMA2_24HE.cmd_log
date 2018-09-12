@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA2_24H.ucf -p xc3s500e-pq208-5 GIAIMA2_24HE.ngc GIAIMA2_24HE.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24HE_map.ncd GIAIMA2_24HE.ngd GIAIMA2_24HE.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24HE_map.ncd GIAIMA2_24HE.ncd GIAIMA2_24HE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24HE.twx GIAIMA2_24HE.ncd -o GIAIMA2_24HE.twr GIAIMA2_24HE.pcf -ucf GIAIMA2_24H.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA2_24H.ucf -p xc3s500e-pq208-5 GIAIMA2_24HE.ngc GIAIMA2_24HE.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24HE_map.ncd GIAIMA2_24HE.ngd GIAIMA2_24HE.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24HE_map.ncd GIAIMA2_24HE.ncd GIAIMA2_24HE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24HE.twx GIAIMA2_24HE.ncd -o GIAIMA2_24HE.twr GIAIMA2_24HE.pcf -ucf GIAIMA2_24H.ucf 
+bitgen -intstyle ise -f GIAIMA2_24HE.ut GIAIMA2_24HE.ncd 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_303_GIAIMA2_24HE/GIAIMA2_24HE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA2_24H.ucf -p xc3s500e-pq208-5 GIAIMA2_24HE.ngc GIAIMA2_24HE.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA2_24HE_map.ncd GIAIMA2_24HE.ngd GIAIMA2_24HE.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA2_24HE_map.ncd GIAIMA2_24HE.ncd GIAIMA2_24HE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA2_24HE.twx GIAIMA2_24HE.ncd -o GIAIMA2_24HE.twr GIAIMA2_24HE.pcf -ucf GIAIMA2_24H.ucf 
+bitgen -intstyle ise -f GIAIMA2_24HE.ut GIAIMA2_24HE.ncd 

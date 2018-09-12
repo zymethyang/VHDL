@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/TT_HDL/BAI321DAHOP4KENH1BIT/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to D:/TT_HDL/BAI321DAHOP4KENH1BIT/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/TT_HDL/BAI321DAHOP4KENH1BIT/DAHOP_SELECT_INS.vhd" in Library work.
+Entity <DAHOP_SELECT_INS> compiled.
+Entity <DAHOP_SELECT_INS> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/TT_HDL/BAI321DAHOP4KENH1BIT/DAHOP_CONDITIONAL_INS.vhd" in Library work.
+Entity <DAHOP_CONDITIONAL_INS> compiled.
+Entity <DAHOP_CONDITIONAL_INS> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/TT_HDL/BAI321DAHOP4KENH1BIT/BAI321_DAHOP_4KENH1BIT.vhd" in Library work.
+Entity <BAI321_DAHOP_4KENH1BIT> compiled.
+Entity <BAI321_DAHOP_4KENH1BIT> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> 
+
+Total memory usage is 4505408 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

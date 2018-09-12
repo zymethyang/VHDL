@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 06 09:00:41 2018
+# Process ID: 8000
+# Log file: D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/planAhead_run_2/planAhead.log
+# Journal file: D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P49 [get_ports {LED_N[7]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[7]}]]
+startgroup
+set_property package_pin P48 [get_ports {LED_N[6]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[6]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[6]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[7]}]]
+startgroup
+set_property package_pin P40 [get_ports {LED_N[5]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[5]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[5]}]]
+startgroup
+set_property package_pin P50 [get_ports {LED_N[4]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[4]}]]
+startgroup
+set_property package_pin P62 [get_ports {LED_N[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[3]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[3]}]]
+startgroup
+set_property package_pin P98 [get_ports {LED_N[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[2]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[2]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[4]}]]
+startgroup
+set_property package_pin P64 [get_ports {LED_N[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[1]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[1]}]]
+startgroup
+set_property package_pin P63 [get_ports {LED_N[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {LED_N[0]}]]
+set_property is_loc_fixed true [get_ports [list  {LED_N[0]}]]
+startgroup
+set_property package_pin P30 [get_ports {SW[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {SW[3]}]]
+set_property is_loc_fixed true [get_ports [list  {SW[3]}]]
+startgroup
+set_property package_pin P136 [get_ports {SW[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {SW[2]}]]
+set_property is_loc_fixed true [get_ports [list  {SW[2]}]]
+startgroup
+set_property package_pin P130 [get_ports {SW[3]}]
+endgroup
+startgroup
+set_property package_pin P142 [get_ports {SW[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {SW[1]}]]
+set_property is_loc_fixed true [get_ports [list  {SW[1]}]]
+startgroup
+set_property package_pin P148 [get_ports {SW[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {SW[0]}]]
+set_property is_loc_fixed true [get_ports [list  {SW[0]}]]
+startgroup
+set_property package_pin P89 [get_ports BELL]
+endgroup
+set_property is_loc_fixed false [get_ports [list  BELL]]
+set_property is_loc_fixed true [get_ports [list  BELL]]
+save_constraints

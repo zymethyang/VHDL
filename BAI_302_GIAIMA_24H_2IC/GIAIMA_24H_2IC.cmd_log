@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.syr" 
+xst -intstyle ise -ifn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.xst" -ofn "D:/TAI_LIEU_HOC/HKVII/TT_HDL/BAI_302_GIAIMA_24H_2IC/GIAIMA_24H_2IC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GIAIMA_24H_2IC.ucf -p xc3s500e-pq208-5 GIAIMA_24H_2IC.ngc GIAIMA_24H_2IC.ngd  
+map -intstyle ise -p xc3s500e-pq208-5 -cm area -ir off -pr off -c 100 -o GIAIMA_24H_2IC_map.ncd GIAIMA_24H_2IC.ngd GIAIMA_24H_2IC.pcf 
+par -w -intstyle ise -ol high -t 1 GIAIMA_24H_2IC_map.ncd GIAIMA_24H_2IC.ncd GIAIMA_24H_2IC.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GIAIMA_24H_2IC.twx GIAIMA_24H_2IC.ncd -o GIAIMA_24H_2IC.twr GIAIMA_24H_2IC.pcf -ucf GIAIMA_24H_2IC.ucf 
+bitgen -intstyle ise -f GIAIMA_24H_2IC.ut GIAIMA_24H_2IC.ncd 
